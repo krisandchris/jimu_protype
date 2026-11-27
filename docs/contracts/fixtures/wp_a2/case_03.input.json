@@ -1,0 +1,5 @@
+[
+  {"category_id": "nonmotor_vehicle_illegal_parking", "score": 0.90},
+  {"category_id": "goods_blocking_road", "score": 0.90},
+  {"category_id": "motor_vehicle_illegal_parking", "score": 0.90}
+]

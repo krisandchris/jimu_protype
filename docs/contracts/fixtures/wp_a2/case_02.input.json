@@ -1,0 +1,6 @@
+{
+  "active_ranking": [{"category_id": "goods_blocking_road", "score": 0.55}],
+  "non_violation_score": 0.85,
+  "margin": 0.10,
+  "empty_ranking_non_violation_threshold": 0.80
+}

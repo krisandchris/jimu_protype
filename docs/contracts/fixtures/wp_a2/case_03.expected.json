@@ -1,0 +1,5 @@
+[
+  {"rank": 1, "category_id": "goods_blocking_road"},
+  {"rank": 2, "category_id": "motor_vehicle_illegal_parking"},
+  {"rank": 3, "category_id": "nonmotor_vehicle_illegal_parking"}
+]

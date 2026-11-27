@@ -1,0 +1,6 @@
+{
+  "target_ref_index": 0,
+  "status": "JEV_FAILED",
+  "jev_judgment": null,
+  "error_codes": ["n06_schema_validation_failed"]
+}

@@ -1,6 +1,7 @@
 """Base types shared by the frozen JIMU contracts."""
 
-from typing import Annotated, TypeAlias
+from collections.abc import Hashable, Iterable
+from typing import Annotated, Literal, TypeAlias
 
 from pydantic import (
     BaseModel,
@@ -20,6 +21,18 @@ class StrictModel(BaseModel):
         strict=True,
         allow_inf_nan=False,
     )
+
+
+NonNegativeInt: TypeAlias = Annotated[StrictInt, Field(ge=0)]
+TargetKind: TypeAlias = Literal["OBJECT", "OBJECT_GROUP"]
+
+
+def require_unique(values: Iterable[Hashable], field: str) -> None:
+    seen: set[Hashable] = set()
+    for value in values:
+        if value in seen:
+            raise ValueError(f"duplicate {field}: {value}")
+        seen.add(value)
 
 
 def _require_json_number(value: object) -> object:

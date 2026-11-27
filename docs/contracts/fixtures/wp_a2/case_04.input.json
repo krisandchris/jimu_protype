@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "target_ref_index": 0,
+      "ranked_categories": [
+        {
+          "category_index": 999,
+          "score": 1.50,
+          "reasoning": "Invalid output",
+          "evidence": {
+            "visual_evidence_indices": [],
+            "observation_evidence_indices": [],
+            "tool_evidence_indices": []
+          }
+        }
+      ],
+      "non_violation_score": 0.10
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "results": [
+    {
+      "target_ref_index": 0,
+      "target_instance_id": "object-001",
+      "ranked_categories": [],
+      "non_violation_score": 0.95,
+      "evidence_completeness": "complete"
+    }
+  ]
+}
