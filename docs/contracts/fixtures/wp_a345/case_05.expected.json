@@ -1,0 +1,21 @@
+{
+  "comparison_status": "EXISTENCE_CONFLICT",
+  "topk_metrics": {
+    "top1_hit": false,
+    "topk_hit": false,
+    "topk_coverage_ratio": 0.0,
+    "topk_precision_ratio": null,
+    "ast_triggered_count": 1,
+    "jev_active_count": 0,
+    "intersection_count": 0
+  },
+  "per_category_diffs": [
+    {
+      "category_id": "category_a",
+      "jev_rank": null,
+      "jev_score": null,
+      "ast_status": "TRIGGERED",
+      "diff_type": "AST_TRIGGERED_JEV_MISSED"
+    }
+  ]
+}

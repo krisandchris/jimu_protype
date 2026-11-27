@@ -1,0 +1,42 @@
+{
+  "image_execution_id": "IMG006",
+  "targets": [
+    {
+      "target_instance_id": "O006",
+      "jev_status": "FAILED",
+      "jev_error_code": "N06_EVIDENCE_REFERENCE_INVALID",
+      "ast": {
+        "aggregation_status": "PARTIAL_FAILED",
+        "triggered_categories": [
+          "category_a"
+        ],
+        "non_triggered_categories": [],
+        "uncertain_categories": [],
+        "failed_categories": [
+          "category_b"
+        ],
+        "rule_judgment_refs": [
+          "trace_a",
+          "trace_b"
+        ]
+      }
+    },
+    {
+      "target_instance_id": "O007",
+      "jev_status": "AVAILABLE",
+      "jev": {
+        "top_verdict": "NON_VIOLATION",
+        "active_ranking": []
+      },
+      "ast": {
+        "aggregation_status": "ALL_SUCCEEDED",
+        "triggered_categories": [],
+        "non_triggered_categories": [
+          "category_c"
+        ],
+        "uncertain_categories": [],
+        "failed_categories": []
+      }
+    }
+  ]
+}

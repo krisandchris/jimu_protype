@@ -1,0 +1,46 @@
+{
+  "results": [
+    {
+      "category_id": "category_unknown",
+      "status": "COMPLETE",
+      "required_dependency_count": 1,
+      "required_valid_count": 1,
+      "required_failed_count": 0,
+      "optional_dependency_count": 0,
+      "optional_valid_count": 0,
+      "optional_failed_count": 0,
+      "missing_dependency_refs": [],
+      "error_dependency_refs": [],
+      "unavailable_dependency_refs": []
+    },
+    {
+      "category_id": "category_missing",
+      "status": "UNAVAILABLE",
+      "required_dependency_count": 1,
+      "required_valid_count": 0,
+      "required_failed_count": 1,
+      "optional_dependency_count": 0,
+      "optional_valid_count": 0,
+      "optional_failed_count": 0,
+      "missing_dependency_refs": [
+        {
+          "source": "observation",
+          "dependency_id": "q2",
+          "source_ast_paths": [
+            "$.root"
+          ],
+          "fact_status": "MISSING",
+          "required": true,
+          "target_scope": "OBJECT",
+          "producer_ref": {
+            "asset_id": "question_q2",
+            "version": "1.0.0",
+            "content_hash": "sha256:q2"
+          }
+        }
+      ],
+      "error_dependency_refs": [],
+      "unavailable_dependency_refs": []
+    }
+  ]
+}

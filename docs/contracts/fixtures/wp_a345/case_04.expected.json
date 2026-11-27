@@ -1,0 +1,32 @@
+{
+  "comparison_status": "AGREE_TOPK_RANK_DIFF",
+  "topk_metrics": {
+    "top1_hit": false,
+    "topk_hit": true,
+    "topk_coverage_ratio": 1.0,
+    "topk_precision_ratio": 0.3333333333,
+    "ast_triggered_count": 1,
+    "jev_active_count": 3,
+    "intersection_count": 1
+  },
+  "per_category_diffs": [
+    {
+      "category_id": "category_a",
+      "jev_rank": 1,
+      "ast_status": "NON_TRIGGERED",
+      "diff_type": "JEV_CANDIDATE_AST_NON_TRIGGERED"
+    },
+    {
+      "category_id": "category_b",
+      "jev_rank": 2,
+      "ast_status": "TRIGGERED",
+      "diff_type": "AGREED_TRIGGERED"
+    },
+    {
+      "category_id": "category_c",
+      "jev_rank": 3,
+      "ast_status": "NON_TRIGGERED",
+      "diff_type": "JEV_CANDIDATE_AST_NON_TRIGGERED"
+    }
+  ]
+}

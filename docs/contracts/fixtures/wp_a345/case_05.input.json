@@ -1,0 +1,18 @@
+{
+  "image_execution_id": "IMG005",
+  "target_instance_id": "O005",
+  "jev": {
+    "top_verdict": "NON_VIOLATION",
+    "active_ranking": [],
+    "non_violation_score": 0.95
+  },
+  "ast": {
+    "aggregation_status": "ALL_SUCCEEDED",
+    "triggered_categories": [
+      "category_a"
+    ],
+    "non_triggered_categories": [],
+    "uncertain_categories": [],
+    "failed_categories": []
+  }
+}

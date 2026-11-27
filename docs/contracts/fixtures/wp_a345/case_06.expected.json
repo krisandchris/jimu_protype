@@ -1,0 +1,72 @@
+{
+  "results": [
+    {
+      "target_instance_id": "O006",
+      "comparison_status": "JEV_FAILED",
+      "topk_metrics": null,
+      "ast_summary": {
+        "aggregation_status": "PARTIAL_FAILED",
+        "triggered_categories": [
+          "category_a"
+        ],
+        "non_triggered_categories": [],
+        "uncertain_categories": [],
+        "failed_categories": [
+          "category_b"
+        ]
+      },
+      "jev_judgment": null,
+      "per_category_diffs": [
+        {
+          "category_id": "category_a",
+          "jev_rank": null,
+          "jev_score": null,
+          "ast_status": "TRIGGERED",
+          "diff_type": "AST_ONLY_JEV_UNAVAILABLE"
+        },
+        {
+          "category_id": "category_b",
+          "jev_rank": null,
+          "jev_score": null,
+          "ast_status": "FAILED",
+          "diff_type": "AST_FAILED"
+        }
+      ]
+    },
+    {
+      "target_instance_id": "O007",
+      "comparison_status": "AGREE_NON_VIOLATION",
+      "topk_metrics": {
+        "top1_hit": null,
+        "topk_hit": null,
+        "topk_coverage_ratio": null,
+        "topk_precision_ratio": null,
+        "ast_triggered_count": 0,
+        "jev_active_count": 0,
+        "intersection_count": 0
+      },
+      "ast_summary": {
+        "aggregation_status": "ALL_SUCCEEDED",
+        "triggered_categories": [],
+        "non_triggered_categories": [
+          "category_c"
+        ],
+        "uncertain_categories": [],
+        "failed_categories": []
+      },
+      "jev_judgment": {
+        "top_verdict": "NON_VIOLATION",
+        "active_ranking": []
+      },
+      "per_category_diffs": [
+        {
+          "category_id": "category_c",
+          "jev_rank": null,
+          "jev_score": null,
+          "ast_status": "NON_TRIGGERED",
+          "diff_type": "AST_NON_TRIGGERED_NOT_RANKED"
+        }
+      ]
+    }
+  ]
+}

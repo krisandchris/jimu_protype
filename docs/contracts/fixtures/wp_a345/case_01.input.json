@@ -1,0 +1,42 @@
+{
+  "image_execution_id": "IMG001",
+  "target_instance_id": "O001",
+  "categories": [
+    {
+      "category_id": "category_a",
+      "rule_ref": {
+        "asset_id": "rule_a",
+        "version": "1.0.0",
+        "content_hash": "sha256:rulea"
+      },
+      "required_dependencies": [
+        {
+          "dependency_id": "tool_a",
+          "source": "tool",
+          "required": true,
+          "scope": "TARGET",
+          "fact_status": "UNAVAILABLE"
+        }
+      ],
+      "optional_dependencies": []
+    },
+    {
+      "category_id": "category_b",
+      "rule_ref": {
+        "asset_id": "rule_b",
+        "version": "1.0.0",
+        "content_hash": "sha256:ruleb"
+      },
+      "required_dependencies": [
+        {
+          "dependency_id": "tool_b",
+          "source": "tool",
+          "required": true,
+          "scope": "GLOBAL",
+          "fact_status": "KNOWN"
+        }
+      ],
+      "optional_dependencies": []
+    }
+  ]
+}

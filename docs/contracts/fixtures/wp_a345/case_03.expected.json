@@ -1,0 +1,24 @@
+{
+  "image_execution_id": "IMG003",
+  "target_instance_id": "O003",
+  "aggregation_status": "PARTIAL_FAILED",
+  "triggered_categories": [
+    "category_a"
+  ],
+  "non_triggered_categories": [],
+  "uncertain_categories": [],
+  "failed_categories": [
+    "category_b"
+  ],
+  "category_coverage": {
+    "active_count": 2,
+    "triggered_count": 1,
+    "non_triggered_count": 0,
+    "uncertain_count": 0,
+    "failed_count": 1
+  },
+  "rule_judgment_refs": [
+    "trace_a",
+    "trace_b"
+  ]
+}

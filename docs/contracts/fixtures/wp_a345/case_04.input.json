@@ -1,0 +1,36 @@
+{
+  "image_execution_id": "IMG004",
+  "target_instance_id": "O004",
+  "jev": {
+    "top_verdict": "VIOLATION",
+    "active_ranking": [
+      {
+        "rank": 1,
+        "category_id": "category_a",
+        "score": 0.95
+      },
+      {
+        "rank": 2,
+        "category_id": "category_b",
+        "score": 0.90
+      },
+      {
+        "rank": 3,
+        "category_id": "category_c",
+        "score": 0.80
+      }
+    ]
+  },
+  "ast": {
+    "aggregation_status": "ALL_SUCCEEDED",
+    "triggered_categories": [
+      "category_b"
+    ],
+    "non_triggered_categories": [
+      "category_a",
+      "category_c"
+    ],
+    "uncertain_categories": [],
+    "failed_categories": []
+  }
+}

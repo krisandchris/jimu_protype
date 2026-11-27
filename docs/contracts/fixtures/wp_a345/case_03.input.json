@@ -1,0 +1,19 @@
+{
+  "image_execution_id": "IMG003",
+  "target_instance_id": "O003",
+  "rule_judgments": [
+    {
+      "category_id": "category_a",
+      "rule_ref": "rule_a@1.0.0",
+      "status": "TRIGGERED",
+      "rule_trace_ref": "trace_a"
+    },
+    {
+      "category_id": "category_b",
+      "rule_ref": "rule_b@1.0.0",
+      "status": "FAILED",
+      "rule_trace_ref": "trace_b",
+      "error_code": "REQUIRED_FACT_UNAVAILABLE"
+    }
+  ]
+}

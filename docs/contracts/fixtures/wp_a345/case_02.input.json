@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "category_id": "category_unknown",
+      "required_dependencies": [
+        {
+          "dependency_id": "q1",
+          "fact_status": "UNKNOWN"
+        }
+      ],
+      "optional_dependencies": []
+    },
+    {
+      "category_id": "category_missing",
+      "required_dependencies": [
+        {
+          "dependency_id": "q2",
+          "fact_status": "MISSING"
+        }
+      ],
+      "optional_dependencies": []
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "results": [
+    {
+      "category_id": "category_a",
+      "status": "UNAVAILABLE",
+      "required_dependency_count": 1,
+      "required_valid_count": 0,
+      "required_failed_count": 1,
+      "optional_dependency_count": 0,
+      "optional_valid_count": 0,
+      "optional_failed_count": 0,
+      "missing_dependency_refs": [],
+      "error_dependency_refs": [],
+      "unavailable_dependency_refs": [
+        {
+          "source": "tool",
+          "dependency_id": "tool_a",
+          "source_ast_paths": [
+            "$.root"
+          ],
+          "fact_status": "UNAVAILABLE",
+          "required": true,
+          "target_scope": "TARGET",
+          "producer_ref": {
+            "asset_id": "tool_a",
+            "version": "1.0.0",
+            "content_hash": "sha256:toola"
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "category_b",
+      "status": "COMPLETE",
+      "required_dependency_count": 1,
+      "required_valid_count": 1,
+      "required_failed_count": 0,
+      "optional_dependency_count": 0,
+      "optional_valid_count": 0,
+      "optional_failed_count": 0,
+      "missing_dependency_refs": [],
+      "error_dependency_refs": [],
+      "unavailable_dependency_refs": []
+    }
+  ]
+}
